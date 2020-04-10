@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 300%;
+    }
+  }
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.bg {
+  background-image: url("71eda279294bce0797091f0c421c04f8.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.dropbtn {
+background-color: red;
+color: white;
+padding: 16px;
+font-size: 36px;
+padding: 22px 52px;
+border: none;
+border-radius: 15px;
+
+}
+
+.dropdown {
+position: absolute;
+top: 80%;
+left: 45%;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:rgb(207, 194, 194);
+min-width: 228px;
+border-radius: 15px;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+font-size: 26px;
+display: block;
+border-radius: 15px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: red;
+}
