@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    }
+    .bg {
+    background-image: url("1865602.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    }
+    #Movies {
+        font-family: "Helvetica", sans-serif;
+        border-collapse: collapse;
+        
+        width: 40%;
+    }
+
+
+    #Movies tr, #Movies td{
+        font-size: 40px;
+        border: 5px solid rgb(27, 24, 24);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        
+        color:rgb(9, 146, 27);
+    }
+
+   
+    #Movies th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color:rgb(216, 100, 23);
+        color:rgb(206, 200, 200);
+        font-size: 40px;
+        border: 5px solid rgb(27, 24, 24);
+        
+    }
+    a:link, a:visited {
+        background-color: #11110f;
+        color: white;
+        position: absolute;
+        padding: 14px 45px;
+        text-align: center;
+        font-size: 36px;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 15px;
+    }
+    
