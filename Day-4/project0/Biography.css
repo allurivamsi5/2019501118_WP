@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    }
+
+    .bg {
+    background-image: url("Vijay-Devarakonda-Age-1.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    }
+    a:link, a:visited {
+        background-color: #1cac47;
+        color: white;
+        position: absolute;
+        padding: 14px 45px;
+        text-align: center;
+        font-size: 36px;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 15px;
+    }
+    
