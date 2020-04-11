@@ -38,15 +38,13 @@ body, html {
         display: inline-block;
         border-radius: 15px;
 }
-.t1,.t2{
+.t1{
     font-weight: bold;
     text-decoration: none;
-}
-.t1{
     color:$var1;
-
 }
 .t2{
+    @extend .t1;
     color:$var;
 
 }
