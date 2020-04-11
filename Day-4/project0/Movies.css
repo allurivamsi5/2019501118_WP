@@ -10,6 +10,24 @@ body, html {
     background-size: 100%;
     
     }
+    .navbar {
+        overflow: hidden;
+        
+      }
+    .navbar a.one {
+        position: absolute;
+        font-size: 36px; 
+      }
+    .navbar a.two {
+        position: absolute;
+        left: 7%;
+        font-size: 36px;       
+      }
+      .navbar a.three {
+        position: absolute;
+        left: 15%;
+        font-size: 36px;       
+      }
     #Movies {
         font-family: "Helvetica", sans-serif;
         border-collapse: collapse;
@@ -39,15 +57,3 @@ body, html {
         border: 5px solid rgb(27, 24, 24);
         
     }
-    a:link, a:visited {
-        background-color: #11110f;
-        color: white;
-        position: absolute;
-        padding: 14px 45px;
-        text-align: center;
-        font-size: 36px;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 15px;
-    }
-    

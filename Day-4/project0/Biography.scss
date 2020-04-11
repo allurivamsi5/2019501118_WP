@@ -27,17 +27,36 @@ body, html {
     background-size: 100%;
     
     }
-    a:link, a:visited {
-        background-color: #1cac47;
-        color: white;
-        position: absolute;
-        padding: 14px 45px;
-        text-align: center;
-        font-size: 36px;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 15px;
-}
+//     a:link, a:visited {
+//         background-color: #1cac47;
+//         color: white;
+//         position: absolute;
+//         padding: 14px 45px;
+//         text-align: center;
+//         font-size: 36px;
+//         text-decoration: none;
+//         display: inline-block;
+//         border-radius: 15px;
+// }
+.navbar {
+    overflow: hidden;
+    
+  }
+.navbar a.one {
+   
+    font-size: 36px; 
+  }
+.navbar a.two {
+    position: absolute;
+    left: 7%;
+    @extend a.one;
+          
+  }
+  .navbar a.three {
+    position: absolute;
+    left: 15%;
+    @extend a.one;      
+  }
 .t1{
     font-weight: bold;
     text-decoration: none;
