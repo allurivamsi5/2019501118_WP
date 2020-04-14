@@ -40,11 +40,13 @@ body, html {
 // }
 .navbar {
     overflow: hidden;
+    background-color: rgb(28, 199, 42);
     
   }
 .navbar a.one {
    
     font-size: 36px; 
+    color: black;
   }
 .navbar a.two {
     position: absolute;

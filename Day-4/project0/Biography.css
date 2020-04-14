@@ -30,10 +30,12 @@ body, html {
 
 .navbar {
   overflow: hidden;
+  background-color: #1cc72a;
 }
 
 .navbar a.one, .navbar a.two, .navbar a.three {
   font-size: 36px;
+  color: black;
 }
 
 .navbar a.two {

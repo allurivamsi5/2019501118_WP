@@ -12,19 +12,23 @@ body, html {
     }
     .navbar {
         overflow: hidden;
+        background-color: rgb(35, 218, 62);
         
       }
     .navbar a.one {
         position: absolute;
         font-size: 36px; 
+        color: black;
       }
     .navbar a.two {
         position: absolute;
+        color: black;
         left: 7%;
         font-size: 36px;       
       }
       .navbar a.three {
         position: absolute;
+        color: black;
         left: 15%;
         font-size: 36px;       
       }
